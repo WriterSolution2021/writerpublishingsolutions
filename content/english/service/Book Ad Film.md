@@ -1,7 +1,7 @@
 ---
 title: "Book Ad Film"
 date: 2018-09-25T15:51:35+06:00
-description : "This is meta description"
+description : "Writer Publishing Solutions Book Ad film service"
 image: images/service/bookadfilm.webp
 bg_image: images/background/page-title.webp
 icon: ti-bar-chart

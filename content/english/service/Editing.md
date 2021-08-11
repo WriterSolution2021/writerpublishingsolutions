@@ -1,7 +1,7 @@
 ---
 title: "Editing"
 date: 2018-09-25T15:51:35+06:00
-description : "This is meta description"
+description : "Writer Publishing Solutions Editing service"
 image: images/service/editing.webp
 bg_image: images/background/page-title.webp
 icon: ti-bar-chart

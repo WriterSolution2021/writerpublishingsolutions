@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{ "<!-- packages single -->" | safeHTML }}
+<section class="section">
+	<div class="container">
+		<div class="row">
+			{{ "<!-- packages single content -->" | safeHTML }}
+			<div class="col-lg-8 order-lg-2 order-1">
+				<img class="img-fluid w-100 mb-60 rounded-top" src="{{ .Params.Image | absURL }}" alt="service">
+				<div class="post-content">
+					{{ .Content }}
+				</div>
+				<!-- Paypal Button details -->
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /packages single -->" | safeHTML }}
+
+{{ end }}

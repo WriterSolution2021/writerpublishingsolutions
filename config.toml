@@ -1,6 +1,6 @@
 ######################### default configuration ###############################
-baseURL = "https://demo.gethugothemes.com/biztrox/"
-title = "Biztrox"
+baseURL = "https://writerpublishingsolutions.netlify.app/"
+title = "Writer Publishing Solutions"
 theme = "biztrox-hugo"
 # post pagination
 paginate = "6"
@@ -8,10 +8,12 @@ paginate = "6"
 summaryLength = "10"
 # google analytics
 googleAnalytics = "" # example : UA-123-45
+# Google Tag Manager
+gtm_id = "GTM-T2N24ZC"
 # disqus short name
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["fr"] # desable language from here
 
 ############################# Outputs ##############################
 [outputs]
@@ -77,16 +79,12 @@ attributes = ""
 link = "plugins/filterizr/jquery.filterizr.min.js"
 attributes = ""
 
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
-attributes = "async"
-
 ########################### default parameters #################################
 [params]
 favicon = "images/favicon.png"
-logo = "images/logo.png"
+logo = "images/logo2.png"
 logo_width = "110px"
-logo_footer = "images/logo-footer.png"
+logo_footer = "images/logo-footer2.png"
 logo_footer_width = "180px"
 mail = "info@companyname.com"
 mobile = "1234565523"
@@ -110,22 +108,13 @@ preloader = "images/preloader.gif"
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # subscribe
 title = "Subscribe Us"
 content = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
-
-# google map
-[params.gmap]
-enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-
 
 ########################### social icon #####################################
 [[params.social]]
@@ -153,9 +142,9 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # footer content
-footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+footer_content = "The smart solution for your publishing success."
 # copyright
-copyright = "Copyright &copy; 2019 a hugo theme by [themefisher.com](https://themefisher.com)"
+copyright = "Copyright &copy; 2021 | Writer Publishing Solutions | All Rights Reserved."
 
 
 ###################### English navigation ####################
@@ -177,34 +166,29 @@ url = "service/"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "Blog"
-url = "blog/"
 weight = 4
+name = "Packages"
+hasChildren = true
 
-[[Languages.en.menu.main]]
-name = "Team"
-url = "team/"
-weight = 5
+  [[Languages.en.menu.main]]
+  parent = "Packages"
+  name = "Black and White"
+  url = "blackandwhite/"
+
+  [[Languages.en.menu.main]]
+  parent = "Packages"
+  name = "Full Color"
+  url = "fullcolor/"
+
+  [[Languages.en.menu.main]]
+  parent = "Packages"
+  name = "Children's Book"
+  url = "childrensbook/"
 
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact/"
 weight = 7
-
-[[Languages.en.menu.main]]
-weight = 8
-name = "Pages"
-hasChildren = true
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Project"
-  url = "project/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  url = "pricing/"
 
 # footer menu
 [[Languages.en.menu.footer]]

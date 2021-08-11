@@ -88,7 +88,7 @@ button {
 }
 
 .section {
-	padding: 100px 0;
+	padding: 45px 0;
 
 	@include mobile {
 		padding: 80px 0;
@@ -646,4 +646,12 @@ blockquote{
 
 a.text-primary:hover{
 	color: $primary-color !important;
+}
+
+.package-after-content {
+	padding-top: 50px;
+}
+
+.padding-prices {
+	padding-top: 50px;
 }

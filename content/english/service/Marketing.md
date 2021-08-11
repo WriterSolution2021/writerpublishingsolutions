@@ -1,18 +1,14 @@
 ---
-title: "Valuable Idea"
-date: 2018-09-29T11:51:17+06:00
+title: "Marketing"
+date: 2018-09-25T15:51:35+06:00
 description : "This is meta description"
-image: images/service/service-6.jpg
-bg_image: images/background/page-title.jpg
-icon: ti-thought
+draft: true
+image: images/service/service-1.webp
+bg_image: images/background/page-title.webp
+icon: ti-bar-chart # themify icon pack : https://themify.me/themify-icons
 brochure: '#'
-regularDay: Sun-Tues
-regularTime: 08.00am - 06.00pm
-halfDay: Thursday
-halfTime: 08.00am - 01.00pm
-offDay: Friday
 type : service
-draft: "true"
+weight : 4
 ---
 
 ### Marketing Oriented To The Targated Customers

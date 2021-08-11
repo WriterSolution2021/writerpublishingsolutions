@@ -4,24 +4,24 @@ slider:
   enable : true
   slider_item:
   # slider item loop
-  - bg_image : images/banner/banner-1.jpg
+  - bg_image : images/banner/banner-1.webp
     animation_from : left
-    subtitle : We are here to
-    title : Planning Business
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    subtitle : WE ARE HERE TO
+    title : Publish Your Own Book
+    content : You are at the heart of every decision we make. You are in control of your publishing journey, and we are here to help you every step of the way.
     pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Consultation
+    pagination_name : Publishing
     button:
       enable : true
       label: More details
-      link : "about"
+      link : "packages"
       
   # slider item loop
-  - bg_image : images/banner/banner-2.jpg
+  - bg_image : images/banner/banner-2.webp
     animation_from : up
-    subtitle : Get your
-    title : Business Consultant
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    subtitle : WE ARE HERE TO
+    title : Market Your Book
+    content : Marketing and selling your book are vital to your publishing success. Our marketing team will help you get your book in the front row of your intended readers.
     pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     pagination_name : Marketing
     button:
@@ -30,30 +30,30 @@ slider:
       link : "about"
       
   # slider item loop
-  - bg_image : images/banner/banner-3.jpg
+  - bg_image : images/banner/banner-3.webp
     animation_from : down
-    subtitle : Start your
-    title : Future Plan
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    subtitle : GET YOUR BEST ROYALTY DEAL
+    title : 100% Net Royalties
+    content : This will help you not only get you higher royalties and lower your print costs but also you will have more flexibility when pricing your book for your readers.
     pagination_icon : ti-money # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Finance
+    pagination_name : Royalties
     button:
       enable : true
       label: More details
       link : "about"
       
   # slider item loop
-  - bg_image : images/banner/banner-4.jpg
+  - bg_image : images/banner/banner-4.webp
     animation_from : right
-    subtitle : We are always
-    title : Be Inspired By Best
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    subtitle : WE ARE ALWAYS
+    title : Focused On Providing You Results
+    content : Our well diverse and high caliber team is available almost 24/7 to provide you the support and proper guidance whenever you need them.
     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Human Resources
+    pagination_name : Other Services
     button:
       enable : true
       label: More details
-      link : "about"
+      link : "services"
 
 ########################################## Service ####################################
 service:
@@ -66,17 +66,17 @@ service:
 ######################################## About #########################################
 about:
   enable : true
-  bg_image : "images/background/about-bg.jpg"
+  bg_image : "images/background/about-bg.webp"
   title : "Who We Are?"
-  content : "Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum."
+  content : "We focus on results to delight our authors by continually striving to exceed their expectations in everything we do and by holding ourselves accountable at every step."
   # bullet point
   bullet_point:
-  - "Business Services"
-  - "Audit & Assurance"
-  - "IT Control Solutions"
-  - "Business Services"
-  - "Audit & Assurance"
-  - "IT Control Solutions"
+    - "Publishing Services"
+    - "Marketing Strategy"
+    - "Editing & Copy Services"
+    - "Book Ad’s Film Services"
+    - "Author Website Solutions"
+    - "Amazon Distribution"
   button:
     enable : true
     label : "Explore More"
@@ -84,10 +84,10 @@ about:
 
 ##################################### Skill ##############################################
 skill:
-  enable : true
+  enable : false
   subtitle : Our Skills
   title : Why Choose Us
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum. sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
+  content:  We are focused on providing you the topnotch results in everything we do. We exist to help you become published successful authors by offering 100% net royalties as our commitment to truly helping you succeed in the industry. On top of that, our well diverse and high caliber team is available almost 24/7 to provide you the support and proper guidance whenever you need them.
   # funfacts
   funfacts :
   - icon : ti-server # themify icon pack : https://themify.me/themify-icons
@@ -118,7 +118,7 @@ skill:
       
 ########################################## project ####################################
 project:
-  enable : true
+  enable : false
   title: "Latest Projects"
   subtitle: "Our Works"
   section: "project" # showing items from project section
@@ -129,29 +129,29 @@ mission:
   enable : true
   subtitle : Our Goal
   title : Company Mission
-  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
-  image : images/chart.png
+  content : We are highly experienced publishing professionals who want to give authors not only an excellent experience with us but also to see results of their hard work. We are here to guide you every step of the way of your publishing journey.
+  image : images/chart.webp
   accordion:
-  - title : Our Company Mission
-    description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-    
-  - title : Our Company Vision
-    description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-    
-  - title : Our Company Goal
-    description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    - title : Our Company Mission
+      description : Our company’s purpose is to provide publishing and marketing services to seasoned and aspiring authors at every step of the publishing process. We are committed to providing the best customer service possible to our clients in publishing, and providing the tools and services necessary for them to realize their publishing dreams.
+      
+    - title : Our Company Vision
+      description : Our aim is to become highly successful at what we do. We aim to establish a solid business relationship with our authors as we know that we cannot be successful if our authors are not successful as well.
+      
+    - title : Our Company Goal
+      description : Our goal is to maintain transparency to our authors and truly helping them succeed. We focus on results to make our authors happy by striving to go beyond their expectations in all that we do and we hold responsible at every step.
 
 ##################################### Promo video ####################################
 promo_video:
   enable : true
-  title : "We Are Alawys <br> Comited"
-  bg_image : "images/background/promo-video.jpg"
-  video_URL : "https://www.youtube.com/watch?v=jrkvirglgaQ"
+  title : "We Are Always Committed To Helping You Succeed!"
+  bg_image : "images/background/promo-video2.webp"
+  video_URL : 
   video_title : "Lorem ipsum dolor <br> sit amet con."
 
 ##################################### call to action #################################
 testimonial:
-  enable : true
+  enable : false
   subtitle : Clients
   title : What client Say
   image : images/client.png
@@ -169,10 +169,10 @@ testimonial:
     designation : Happy Clients
 
 ##################################### call to action #################################
-call_to_action:
+cta:
   enable : true
-  bg_image : "images/background/cta.jpg"
-  title : "Biztrox give the smart solution for your business"
+  bg_image : "images/background/cta.webp"
+  title : "Gives the smart solution for your publishing success."
   button:
     enable : true
     label : "get a quote"
@@ -180,7 +180,7 @@ call_to_action:
       
 ########################################## blog ####################################
 blog:
-  enable : true
+  enable : false
   title: "Company News"
   subtitle: "Latest News"
   section: "blog"
@@ -188,7 +188,7 @@ blog:
   
 ################################ clints logo slider ################################
 clients_logo_slider:
-  enable : true
+  enable : false
   client_logos:
   - logo: "images/client-logo/client-logo-1.png"
     link: "#"

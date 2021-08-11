@@ -1,12 +1,12 @@
 ---
 title: "Service"
 date: 2018-07-12T18:19:33+06:00
-bg_image: images/background/page-title.jpg
-description : "This is meta description"
+bg_image: images/background/page-title.webp
+description : "Writer Publishing Solutions Services"
 
 ################## Satisfied clients ###############
 satisfied_clients:
-  enable: true
+  enable: false
   bg_image: images/background/clients-bg.jpg
   subtitle: Our Some
   title: Satisfied Clients
@@ -21,11 +21,9 @@ satisfied_clients:
     
 ################### call to action ##################
 testimonial:
-  enable: true
-  inherit_homepage: true
+  enable: false
+  inherit_homepage: false
   # testimonial content comes from "_index.md" file
 ---
 
-## Our Best Services
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+## The services we provide

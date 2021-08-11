@@ -7,6 +7,7 @@ bg_image: images/background/page-title.webp
 icon: ti-server
 brochure: '#'
 type : service
+descriptive_text: "Illustration Service"
 weight : 3
 ---
 

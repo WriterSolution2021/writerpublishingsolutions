@@ -7,6 +7,7 @@ bg_image: images/background/page-title.webp
 icon: ti-bar-chart
 brochure: '#'
 type : service
+descriptive_text: "Editing Service"
 weight : 1
 ---
 

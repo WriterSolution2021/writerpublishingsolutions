@@ -12,7 +12,7 @@
       <p class="card-text mx-2 mb-0">{{ .Summary }}</p>
     </div>
     <div class="card-footer border-0 p-0">
-      <a href="{{ .Permalink }}" class="btn btn-secondary translateY-25">{{ i18n "read_more" }}</a>
+      <a href="{{ .Permalink }}" class="btn btn-secondary translateY-25">{{ .Params.descriptive_text }}</a>
     </div>
   </div>
 </div>

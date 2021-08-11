@@ -6,6 +6,7 @@ image: images/service/design.webp
 bg_image: images/background/page-title.webp
 icon: ti-server
 type : service
+descriptive_text: "Design Service"
 weight : 2
 ---
 

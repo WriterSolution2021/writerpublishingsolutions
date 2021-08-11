@@ -8,8 +8,6 @@ paginate = "6"
 summaryLength = "10"
 # google analytics
 googleAnalytics = "" # example : UA-123-45
-# Google Tag Manager
-gtm_id = "GTM-T2N24ZC"
 # disqus short name
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
@@ -95,6 +93,8 @@ author = "themefisher"
 contact_form_action = "#" # contact form works with https://formspree.io or https://formsubmit.co
 # custom script
 custom_script = ""
+# Google Tag Manager
+gtm_id = "GTM-T2N24ZC"
 
 # nav Button
 [params.nav_button]

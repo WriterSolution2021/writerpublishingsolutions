@@ -6,7 +6,7 @@
   <meta name="description"
     content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   <!-- multilingual SEO optimizations -->
-  {{ partial "gtm.html" . }}
+  {{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
   {{ if .IsTranslated }}
   {{ range .Page.AllTranslations }}
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">

@@ -2,8 +2,8 @@
 title: "Advanced"
 date: 2021-08-03T18:02
 description : "Writer Publishing Solutions Advanced Full Color Publishing Package"
-image: images/service/service-5.jpg
-bg_image: images/background/page-title.jpg
+image: images/service/service-chart.webp
+bg_image: images/background/page-title.webp
 icon: ti-server
 type: "packages"
 weight : 3

@@ -1,4 +1,6 @@
 ---
+title: "Writer Publishing Solutions"
+
 ###################### hero slider ###########################
 slider:
   enable : true
@@ -13,7 +15,7 @@ slider:
     pagination_name : Publishing
     button:
       enable : true
-      label: More details
+      label: Check our packages
       link : "packages"
       
   # slider item loop

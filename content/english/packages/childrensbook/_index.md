@@ -1,7 +1,7 @@
 ---
 title: "Children's Book Publishing"
 date: 2018-07-12T18:19:33+06:00
-bg_image: images/background/page-title.jpg
+bg_image: images/background/page-title.webp
 description : "Writer Publishing Solutions Children's Book Publishing Packages"
 layout: "packages"
 
@@ -11,14 +11,14 @@ pckg2:
   - title : Want to publish in black & white?
     description: If your book is mostly text, black and white photographs, or line drawings, look no further - we have a black and white publishing package tailored for you.
     value: Start as low as $1,499
-    link: /blackandwhite
+    link: /packages/blackandwhite
     text_link: See Black and White Packages.
 
 pckg3:
   - title : Publishing a children’s book?
     description: We have packages to pack your book with pictures and illustrations for the little ones.
     value: 
-    link: /childrensbook
+    link: /packages/childrensbook
     text_link: See Children's Publishing Packages.
 
 ########################################### Pricing #########################################
@@ -28,7 +28,7 @@ pricing_table :
     icon : ti-gift # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/childrensbook/primary'
+    link : '/packages/childrensbook/primary'
     service_list: 
       - Author Retains Copyright
       - ISBN Assignment
@@ -45,7 +45,7 @@ pricing_table :
     icon : ti-key # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/childrensbook/advanced'
+    link : '/packages/childrensbook/advanced'
     service_list : 
       - Author Retains Copyright
       - ISBN Assignment
@@ -63,7 +63,7 @@ pricing_table :
     icon : ti-medall # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/childrensbook/mastery'
+    link : '/packages/childrensbook/mastery'
     service_list : 
       - Author Retains Copyright
       - ISBN Assignment

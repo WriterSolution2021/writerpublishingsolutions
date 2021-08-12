@@ -11,14 +11,14 @@ pckg2:
   - title : Want to publish in full color?
     description: If your book is mostly text, black and white photographs, or line drawings, look no further - we have a black and white publishing package tailored for you.
     value: Start as low as $1,499
-    link: /fullcolor
+    link: /packages/fullcolor
     text_link: See Full Color Packages.
 
 pckg3:
   - title : Publishing a children’s book?
     description: We have packages to pack your book with pictures and illustrations for the little ones.
     value: 
-    link: /childrensbook
+    link: /packages/childrensbook
     text_link: See Children's Publishing Packages.
 
 ########################################### Pricing #########################################
@@ -28,7 +28,7 @@ pricing_table :
     icon : ti-gift # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/blackandwhite/standard'
+    link : '/packages/blackandwhite/standard'
     service_list: 
       - Author Retains Copyright
       - ISBN Assignment
@@ -44,7 +44,7 @@ pricing_table :
     icon : ti-key # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/blackandwhite/professional'
+    link : '/packages/blackandwhite/professional'
     service_list : 
       - Author Retains Copyright
       - ISBN Assignment
@@ -66,7 +66,7 @@ pricing_table :
     icon : ti-medall # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/blackandwhite/all-inclusive'
+    link : '/packages/blackandwhite/all-inclusive'
     service_list : 
       - Author Retains Copyright
       - ISBN Assignment
@@ -91,7 +91,7 @@ pricing_table :
     icon : ti-medall # themify icon pack : https://themify.me/themify-icons
     value : 
     unit : 
-    link : '/blackandwhite/traditional'
+    link : '/packages/blackandwhite/traditional'
     service_list : 
       - Author Retains Copyright
       - ISBN Assignment

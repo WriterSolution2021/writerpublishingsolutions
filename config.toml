@@ -173,17 +173,17 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "Packages"
   name = "Black and White"
-  url = "blackandwhite/"
+  url = "packages/blackandwhite/"
 
   [[Languages.en.menu.main]]
   parent = "Packages"
   name = "Full Color"
-  url = "fullcolor/"
+  url = "packages/fullcolor/"
 
   [[Languages.en.menu.main]]
   parent = "Packages"
   name = "Children's Book"
-  url = "childrensbook/"
+  url = "packages/childrensbook/"
 
 [[Languages.en.menu.main]]
 name = "Contact"

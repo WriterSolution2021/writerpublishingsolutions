@@ -1,5 +1,6 @@
 ---
 title: "Writer Publishing Solutions"
+description: "Writer Publishing Solutions publishing company."
 
 ###################### hero slider ###########################
 slider:

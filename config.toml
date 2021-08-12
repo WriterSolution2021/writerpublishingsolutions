@@ -87,7 +87,7 @@ logo_footer_width = "180px"
 mail = "info@companyname.com"
 mobile = "1234565523"
 # Meta data
-description = "this is meta description"
+description = "Writer Publishing Solutions publishing company."
 author = "themefisher"
 # contact form
 contact_form_action = "#" # contact form works with https://formspree.io or https://formsubmit.co
@@ -119,18 +119,22 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 ########################### social icon #####################################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+social = "facebook social link"
 link = "#"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+social = "twitter social link"
 link = "#"
 
 [[params.social]]
 icon = "ti-vimeo-alt" # themify icon pack : https://themify.me/themify-icons
+social = "vimeo social link"
 link = "#"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+social = "linkedin social link"
 link = "#"
 
 
